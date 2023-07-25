@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'THLTW-21DH112472';
+  title = '21DH112472-PhamVanHieu-Done';
+  loadedFeature = 'recipe';
+
+  onNavigate(feature:string){
+    this.loadedFeature = feature;
+  }
 }
